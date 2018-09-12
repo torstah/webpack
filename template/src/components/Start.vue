@@ -6,10 +6,10 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Start',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Hej Tor'
     }
   }
 }
