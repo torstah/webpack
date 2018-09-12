@@ -18,16 +18,16 @@ export default {
   },
   mounted(){},
   methods: {},
-  beforeDestroy: () {},
+  beforeDestroy(){},
   computed: {
     ...mapGetters(["isDebug"]),
-  }
+  }c
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
-@import "styles/custom_variables.scss";
+@import "@/styles/custom_variables.scss";
 
 
 </style>
