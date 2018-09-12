@@ -1,6 +1,8 @@
 <template>
-  <div>
-    
+  <div class="section">
+    <div class="container">
+      <h1 class="title">{{msg}}</h1>
+    </div>
   </div>
 </template>
 
@@ -16,6 +18,8 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss">
+@import "styles/custom_variables.scss";
+
 
 </style>
