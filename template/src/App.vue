@@ -10,7 +10,7 @@
 
 <script>
 {{#unless router}}
-import Start from './components/Start'
+import Start from './views/Start'
 
 {{/unless}}
 export default {

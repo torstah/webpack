@@ -5,6 +5,7 @@
 import Vue from 'vue'
 import App from './App'
 import Buefy from 'buefy'
+import store from './store'
 // import 'buefy/dist/buefy.css'
 {{#router}}
 import router from './router'
@@ -17,6 +18,7 @@ Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  store,
   {{#router}}
   router,
   {{/router}}
