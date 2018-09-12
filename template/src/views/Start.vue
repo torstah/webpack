@@ -7,12 +7,20 @@
 </template>
 
 <script>
+import { mapGetters } from "vuex";
+
 export default {
   name: 'Start',
   data () {
     return {
       msg: 'Hej Tor'
     }
+  },
+  mounted(){},
+  methods: {},
+  beforeDestroy: () {},
+  computed: {
+    ...mapGetters(["isDebug"]),
   }
 }
 </script>

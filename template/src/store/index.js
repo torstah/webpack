@@ -21,7 +21,18 @@ const store = new Vuex.Store({
   },
   actions: {
     createRemix({ commit, state }, payload) {
-      
+      return Vue.axios.post(baseUrl + '/create', payload
+      )
+        .then((response) => {
+          // let result = response.data.result;
+          // //console.log(response.data.result)
+
+          // let current = state.currentRemix;
+          // let remixId = response.data.id;
+          // current['id'] = result.id;
+          // commit('currentRemix', current)
+          return response;
+        })
     }
   }
 })
