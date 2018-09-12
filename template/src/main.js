@@ -4,9 +4,13 @@
 {{/if_eq}}
 import Vue from 'vue'
 import App from './App'
+import Buefy from 'buefy'
+// import 'buefy/dist/buefy.css'
 {{#router}}
 import router from './router'
 {{/router}}
+
+Vue.use(Buefy)
 
 Vue.config.productionTip = false
 

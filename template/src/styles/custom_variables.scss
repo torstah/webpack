@@ -1,0 +1,57 @@
+$main-bg: #111;
+$main-text-color: #111;
+$main-primary: #4619C1;
+$main-green: #30c37d;
+$main-white: #FFF5F4;
+$main-magenta: rgb(200, 10, 150);
+$myb-red-transp: rgba(0, 0, 0, 0);
+$text-hover: #8a8a8a;
+$main-text-color: #FFF5F4;
+
+$main-gray: #F1F1F1;
+
+$p8-green: #00dfa1;
+//$p8-blue: #19b5d2;
+$p8-blue: #29B5D0;
+
+$p8-darkblue: #8174ea;
+$p8-red: #D67261;
+$p8-yellow: #F1DD62;
+
+$main-secondary: #C90895;
+
+
+// Set your colors
+$primary: $main-primary;
+$primary-invert: findColorInvert($primary);
+
+$secondary: $main-secondary;
+$secondary-invert: findColorInvert($primary);
+$success-invert: findColorInvert($primary);
+
+$magenta: $main-magenta;
+$magenta-invert: findColorInvert($magenta);
+
+
+// Setup $colors to use as bulma classes (e.g. 'is-twitter')
+$colors: (
+
+    "primary": ($primary, $primary-invert),
+    "magenta": ($magenta, $magenta-invert),
+    "secondary": ($secondary, $secondary-invert),
+    "success": ($main-green, $main-green),
+    "danger": ($primary, $primary-invert),
+
+);
+
+// Links
+$link: $main-white;
+$link-hover: $main-white;
+$link-visited: $main-white;
+$link-invert: $main-white;
+$link-focus-border: $primary;
+
+$gap: 64px;
+//$column-gap: 1rem;
+
+$global-padding: 2.75rem;

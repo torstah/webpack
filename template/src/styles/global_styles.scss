@@ -1,0 +1,43 @@
+@font-face {
+  font-family: HarmoniaMono;
+  src: url("/static/fonts/Harmonia_Sans_Mono_W01.woff") format("woff");
+}
+
+@font-face {
+  font-family: Harmonia;
+  src: url("/static/fonts/Harmonia_Sans_W01_Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: HarmoniaBold;
+  src: url("/static/fonts/Harmonia_Sans_W01_Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: HarmoniaBlack;
+  src: url("/static/fonts/HarmoniaSansStd-Black.woff") format("woff");
+}
+
+@font-face {
+  font-family: DINLight;
+  src: url("/static/fonts/DINNextRoundedLTPro-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: DINMedium;
+  src: url("/static/fonts/DINNextLTPro-Medium.woff") format("woff");
+}
+
+
+
+// Import Bulma's core
+@import "~bulma/sass/utilities/_all";
+@import 'custom_variables.scss';
+
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+@import 'custom_overrides.scss';
+@import 'custom_styles.scss';
+@import 'media_queries.scss';
+
+//@import 'video_skin_2.scss';

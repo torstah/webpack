@@ -1,0 +1,48 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  font-family: "DINLight", sans-serif;
+  font-size: 14px; // font-weight: 600;
+  // line-height: 1.8rem;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "HarmoniaBlack", sans-serif;
+}
+
+#app {
+  margin: 0;
+  height: 100%;
+  padding: 0;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.full-height {
+  height: 100vh;
+  width: 100vw;
+}
+
+.page-section {
+  background-color: #fff;
+  height: 100vh;
+}
+
+.bg-gray {
+  background-color: $main-gray;
+}
+
+.bg-blue {
+  background-color: $p8-blue;
+  color: #fff;
+  h1 {
+    color: #fff;
+  }
+}
