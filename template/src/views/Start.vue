@@ -21,7 +21,7 @@ export default {
   beforeDestroy(){},
   computed: {
     ...mapGetters(["isDebug"]),
-  }c
+  }
 }
 </script>
 
